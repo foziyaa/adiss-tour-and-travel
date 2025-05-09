@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel – Destinations Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    .section {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #2b2d42;
+    }
+    .destination-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-top: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .destination-card h3 {
+      margin-top: 0;
+      color: #0077b6;
+      font-size: 18px;
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: 500;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="url"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Admin Panel – Destinations Page</h1>
+
+  <!-- Page Title Section -->
+  <div class="section">
+    <h2>Page Title Section</h2>
+    <label>Subtitle</label>
+    <input type="text" placeholder="Explore the world">
+    <label>Main Title</label>
+    <input type="text" placeholder="Destinations">
+    <label>Background Image URL</label>
+    <input type="url" placeholder="https://example.com/destinations-bg.jpg">
+  </div>
+
+  <!-- Destination Cards -->
+  <div class="section">
+    <h2>Destination Cards</h2>
+
+    <!-- Destination 1 -->
+    <div class="destination-card">
+      <h3>Destination 1</h3>
+      <label>Country Name</label>
+      <input type="text" placeholder="India">
+      <label>Number of Destinations</label>
+      <input type="text" placeholder="42 Destinations">
+      <label>Country Image URL</label>
+      <input type="url" placeholder="https://example.com/india.jpg">
+      <label>Tour Link</label>
+      <input type="url" placeholder="https://example.com/india-tours">
+    </div>
+
+    <!-- Destination 2 -->
+    <div class="destination-card">
+      <h3>Destination 2</h3>
+      <label>Country Name</label>
+      <input type="text" placeholder="Poland">
+      <label>Number of Destinations</label>
+      <input type="text" placeholder="20 Destinations">
+      <label>Country Image URL</label>
+      <input type="url" placeholder="https://example.com/poland.jpg">
+      <label>Tour Link</label>
+      <input type="url" placeholder="https://example.com/poland-tours">
+    </div>
+
+    <!-- Destination 3 -->
+    <div class="destination-card">
+      <h3>Destination 3</h3>
+      <label>Country Name</label>
+      <input type="text" placeholder="Mexico">
+      <label>Number of Destinations</label>
+      <input type="text" placeholder="18 Destinations">
+      <label>Country Image URL</label>
+      <input type="url" placeholder="https://example.com/mexico.jpg">
+      <label>Tour Link</label>
+      <input type="url" placeholder="https://example.com/mexico-tours">
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="section">
+    <h2>Call to Action</h2>
+    <label>Button Text</label>
+    <input type="text" placeholder="Tour Packages">
+    <label>Button URL</label>
+    <input type="url" placeholder="https://example.com/all-tours">
+  </div>
+
+  <button type="submit">Save Changes</button>
+</div>
+
+</body>
+</html>

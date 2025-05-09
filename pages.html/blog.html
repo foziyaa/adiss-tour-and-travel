@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel – Blog Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    .section {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #2b2d42;
+    }
+    .blog-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-top: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .blog-card h3 {
+      margin-top: 0;
+      color: #0077b6;
+      font-size: 18px;
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: 500;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Admin Panel – Blog Page</h1>
+
+  <!-- Page Title Section -->
+  <div class="section">
+    <h2>Page Header</h2>
+    <label>Subtitle</label>
+    <input type="text" placeholder="Latest updates & tips">
+    <label>Main Title</label>
+    <input type="text" placeholder="Travel Blog">
+    <label>Background Image URL</label>
+    <input type="url" placeholder="https://example.com/blog-bg.jpg">
+  </div>
+
+  <!-- Blog Section Title -->
+  <div class="section">
+    <h2>Blog Section Settings</h2>
+    <label>Section Title</label>
+    <input type="text" placeholder="From the Journal">
+    <label>Subtitle</label>
+    <input type="text" placeholder="Stories, tips & more">
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="section">
+    <h2>Blog Posts</h2>
+
+    <div class="blog-card">
+      <h3>Blog Post 1</h3>
+      <label>Title</label>
+      <input type="text" placeholder="Top 10 beaches to visit in 2025">
+      <label>Summary/Excerpt</label>
+      <textarea placeholder="Explore the most beautiful coastlines..."></textarea>
+      <label>Image URL</label>
+      <input type="url" placeholder="https://example.com/blog1.jpg">
+      <label>Link to Full Blog</label>
+      <input type="url" placeholder="https://example.com/blog/beaches-2025">
+    </div>
+
+    <div class="blog-card">
+      <h3>Blog Post 2</h3>
+      <label>Title</label>
+      <input type="text" placeholder="Why guided tours are worth it">
+      <label>Summary/Excerpt</label>
+      <textarea placeholder="Save time, explore more, and get expert insights..."></textarea>
+      <label>Image URL</label>
+      <input type="url" placeholder="https://example.com/blog2.jpg">
+      <label>Link to Full Blog</label>
+      <input type="url" placeholder="https://example.com/blog/guided-tours">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="section">
+    <h2>Pagination</h2>
+    <label>Number of Blog Pages</label>
+    <input type="text" placeholder="3">
+    <label>Enable Arrows (yes/no)</label>
+    <input type="text" placeholder="yes">
+  </div>
+
+  <button type="submit">Save Changes</button>
+</div>
+
+</body>
+</html>

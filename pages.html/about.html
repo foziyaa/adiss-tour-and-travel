@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel - About Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      font-size: 28px;
+      color: #2b2d42;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    .section {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #e1e1e1;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #2f4f4f;
+      font-size: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 500;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      resize: vertical;
+    }
+    textarea {
+      height: 100px;
+    }
+    button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: #0077b6;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Admin Panel – About Page Content</h1>
+
+  <div class="section">
+    <h2>Page Title Section</h2>
+    <label>Subtitle</label>
+    <input type="text" placeholder="Our journey">
+    <label>Main Title</label>
+    <input type="text" placeholder="About us">
+    <label>Background Image URL</label>
+    <input type="url" placeholder="https://example.com/about-bg.jpg">
+  </div>
+
+  <div class="section">
+    <h2>Hero/About Section</h2>
+    <label>Heading</label>
+    <input type="text" placeholder="Discover the world's leading travel agency.">
+    <label>Description</label>
+    <textarea placeholder="Write about the agency..."></textarea>
+    <label>Main Image URL</label>
+    <input type="url" placeholder="https://example.com/agency-hero.jpg">
+    <label>Floating Decorative Image</label>
+    <input type="url" placeholder="https://example.com/decorative.png">
+  </div>
+
+  <div class="section">
+    <h2>Highlight Cards</h2>
+    <label>Left Box Title</label>
+    <input type="text" placeholder="A balanced diet is a cookie in hand">
+    <label>Left Box Description</label>
+    <textarea placeholder="Left box text..."></textarea>
+
+    <label>Right Box Title</label>
+    <input type="text" placeholder="Nature wears the bright colors">
+    <label>Right Box Description</label>
+    <textarea placeholder="Right box text..."></textarea>
+  </div>
+
+  <div class="section">
+    <h2>Embedded Video</h2>
+    <label>Video Thumbnail URL</label>
+    <input type="url" placeholder="https://example.com/video-thumb.jpg">
+    <label>Video URL (YouTube/Vimeo)</label>
+    <input type="url" placeholder="https://youtube.com/...">
+  </div>
+
+  <div class="section">
+    <h2>Author/Founder Section</h2>
+    <label>Name</label>
+    <input type="text" placeholder="Colene Landin">
+    <label>Role</label>
+    <input type="text" placeholder="Co-founder">
+    <label>Quote/Bio</label>
+    <textarea placeholder="Author quote or description..."></textarea>
+    <label>Profile Image URL</label>
+    <input type="url" placeholder="https://example.com/profile.jpg">
+    <label>Link to All Posts</label>
+    <input type="url" placeholder="https://example.com/author-posts">
+  </div>
+
+  <div class="section">
+    <h2>Message Blocks</h2>
+    <label>Quote 1 Title</label>
+    <input type="text" placeholder="Success is the result of perfection and hard work">
+    <label>Quote 1 Text</label>
+    <textarea placeholder="Quote description..."></textarea>
+
+    <label>Quote 2 Title</label>
+    <input type="text" placeholder="It is better to fail in originality...">
+    <label>Quote 2 Text</label>
+    <textarea placeholder="Second quote description..."></textarea>
+  </div>
+
+  <div class="section">
+    <h2>Highlight Image & Long Content</h2>
+    <label>Main Highlight Image URL</label>
+    <input type="url" placeholder="https://example.com/highlight.jpg">
+    <label>Detailed Paragraph</label>
+    <textarea placeholder="Long-form description of the agency, philosophy..."></textarea>
+  </div>
+
+  <div class="section">
+    <h2>Tag Cloud</h2>
+    <label>Tags (comma separated)</label>
+    <input type="text" placeholder="Adventure, Beaches, Friendly, Development">
+  </div>
+
+  <button type="submit">Save Changes</button>
+</div>
+
+</body>
+</html>

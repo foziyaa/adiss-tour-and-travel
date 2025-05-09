@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel – Contact Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+    .section {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 20px;
+      color: #2b2d42;
+    }
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: 500;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="url"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    button {
+      margin-top: 25px;
+      padding: 12px 24px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #005f87;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Admin Panel – Contact Page</h1>
+
+  <!-- Page Title Section -->
+  <div class="section">
+    <h2>Page Title Section</h2>
+    <label>Subtitle</label>
+    <input type="text" placeholder="The perfect trip">
+    <label>Title</label>
+    <input type="text" placeholder="Contact us">
+    <label>Background Image URL</label>
+    <input type="url" placeholder="https://example.com/contact-bg.jpg">
+  </div>
+
+  <!-- Call Us Directly -->
+  <div class="section">
+    <h2>Call Us Directly</h2>
+    <label>Heading</label>
+    <input type="text" placeholder="Call us directly">
+    <label>Phone Numbers (comma separated)</label>
+    <input type="text" placeholder="1-800-222-000, 1-800-222-002">
+    <label>Call to Action Button Text</label>
+    <input type="text" placeholder="Call us today">
+  </div>
+
+  <!-- Keep in Touch -->
+  <div class="section">
+    <h2>Keep in Touch</h2>
+    <label>Heading</label>
+    <input type="text" placeholder="Keep in touch">
+    <label>Address</label>
+    <input type="text" placeholder="401 Broadway, 24th Floor, Orchard View, London">
+    <label>Google Maps URL</label>
+    <input type="url" placeholder="https://maps.google.com/...">
+  </div>
+
+  <!-- Live Support -->
+  <div class="section">
+    <h2>Need Live Support</h2>
+    <label>Heading</label>
+    <input type="text" placeholder="Need live support">
+    <label>Support Emails (comma separated)</label>
+    <input type="email" placeholder="info@yourdomain.com, hr@yourdomain.com">
+    <label>Support Button Text</label>
+    <input type="text" placeholder="Contact support desk">
+  </div>
+
+  <!-- Contact Form -->
+  <div class="section">
+    <h2>Contact Form</h2>
+    <label>Form Action URL</label>
+    <input type="url" placeholder="https://yourdomain.com/form-handler">
+    <label>Name Field Placeholder</label>
+    <input type="text" placeholder="Your name">
+    <label>Email Field Placeholder</label>
+    <input type="text" placeholder="Your email">
+    <label>Phone Field Placeholder</label>
+    <input type="text" placeholder="Your phone number">
+    <label>Message Field Placeholder</label>
+    <input type="text" placeholder="Your message here...">
+    <label>Submit Button Text</label>
+    <input type="text" placeholder="Send Message">
+  </div>
+
+  <!-- Contact Image -->
+  <div class="section">
+    <h2>Contact Page Image</h2>
+    <label>Side Image or Banner URL</label>
+    <input type="url" placeholder="https://example.com/contact-banner.jpg">
+  </div>
+
+  <!-- Social Media Links -->
+  <div class="section">
+    <h2>Social Media Links</h2>
+    <label>Facebook URL</label>
+    <input type="url" placeholder="https://facebook.com/yourpage">
+    <label>Twitter URL</label>
+    <input type="url" placeholder="https://twitter.com/yourpage">
+    <label>Instagram URL</label>
+    <input type="url" placeholder="https://instagram.com/yourpage">
+    <label>LinkedIn URL</label>
+    <input type="url" placeholder="https://linkedin.com/yourpage">
+    <label>Dribbble URL</label>
+    <input type="url" placeholder="https://dribbble.com/yourpage">
+  </div>
+
+  <button type="submit">Save Changes</button>
+</div>
+
+</body>
+</html>
